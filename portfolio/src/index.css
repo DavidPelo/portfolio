@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: Lato; */
+  /* font-family: 'Lora', serif; */
+  font-family: 'Mulish', sans-serif;
+  background-color: #303841;
+  color: #EEEEEE;
+}
+
+h2 {
+  font-size: 4em;
+  font-family: 'Lora', serif;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  margin-right: auto;
+  width: 20%;
+  background-color: #F6C90E;
+}
+
+.navLinkContainer{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.navLink {
+  margin: 0px 0px 0px 40px;
+}
+
+.bodyDivContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  width: 60%;
+}
+
+.courseContainer {
+  display: flex;
+  height: 40%;
+  align-items: flex-end;
+}
+
+.labsContainer {
+  display: flex;
+}
+
+.projectsContainer {
+  display: flex;
+
+}
+
+/* Project styles */
+.projectNav {
+  color: #EEEEEE;
+  margin: 10px 0;
+  padding: 10px 30px 10px 0;
+}
+
+.projectNav a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #EEEEEE;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1.5s;
+}
+
+.projectNav a:hover {
+  border-bottom: 1px solid #F6C90E;
+}
+
+/* Lab Styles */
+.labNav {
+  color: #EEEEEE;
+  margin: 10px 0;
+  padding: 10px 30px 10px 0;
+}
+
+.labNav a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #EEEEEE;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1.5s;
+}
+
+.labNav a:hover {
+  border-bottom: 1px solid #F6C90E;
+}
+
+.nameContainer {
+  font-family: 'Lora', serif;
+  border-bottom: 1px solid #F6C90E;
+  display: flex;
+  height: 75px;
+  align-items: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  .nameContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bodyDivContainer {
+    height: auto;
+  }
+
+  .labsContainer {
+    flex-direction: column;
+  }
+
+  .labNav {
+
+    margin: 10px 0;
+    padding: 10px 0px 10px 0;
+  }
+
+  .labNav a{
+    font-size: 3em;
+  }
+}
