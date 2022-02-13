@@ -44,8 +44,8 @@ hr {
 
 .courseContainer {
   display: flex;
-  height: 40%;
-  align-items: flex-end;
+  height: auto;
+  align-items: flex-start;
 }
 
 .labsContainer {
@@ -54,7 +54,6 @@ hr {
 
 .projectsContainer {
   display: flex;
-
 }
 
 /* Project styles */
@@ -99,12 +98,13 @@ hr {
   font-family: 'Lora', serif;
   border-bottom: 1px solid #F6C90E;
   display: flex;
-  height: 75px;
-  align-items: center;
+  height: 33%;
+  align-items: flex-end;
+  padding-bottom: .75em;
 }
 
 /* Mobile Styles */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   body {
     text-align: center;
   }
