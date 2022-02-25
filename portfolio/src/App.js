@@ -9,9 +9,9 @@ function App() {
     <div>
       <Container class="bodyDivContainer">
         <NavBar />
-        <Welcome message="Welcome to my student site." />
-        <Labs />
-        <Projects />
+        <Welcome message="Welcome!" />
+        {/* <Labs />
+        <Projects /> */}
       </Container>
     </div>
   );
