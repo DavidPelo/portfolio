@@ -1,0 +1,116 @@
+
+:root {
+  --clr-font: #EEEEEE;
+  --clr-background: #303841;
+  --clr-accent: #F6C90E;
+
+  --ff-primary: 'Mulish', sans-serif;
+  --ff-secondary: 'Lora', serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  /* font-family: Lato; */
+  /* font-family: 'Lora', serif; */
+  font-family: var(--ff-primary);
+  background-color: #303841;
+  color: var(--clr-font);
+}
+
+h2 {
+  font-size: 4em;
+  font-family: var(--ff-secondary);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  margin-right: auto;
+  width: 20%;
+  background-color: var(--clr-accent);
+}
+
+.navLinkContainer{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.navLink {
+  margin: 0px 0px 0px 40px;
+}
+
+.bodyDivContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  width: 60%;
+}
+
+.courseContainer {
+  display: flex;
+  height: auto;
+  align-items: flex-start;
+}
+
+.labsContainer {
+  display: flex;
+}
+
+.projectsContainer {
+  display: flex;
+}
+
+/* Project styles */
+.projectNav {
+  color: var(--clr-font);
+  margin: 10px 0;
+  padding: 10px 30px 10px 0;
+}
+
+.projectNav a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: var(--clr-font);
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1.5s;
+}
+
+.projectNav a:hover {
+  border-bottom: 1px solid var(--clr-accent);
+}
+
+/* Lab Styles */
+.labNav {
+  color: var(--clr-font);
+  margin: 10px 0;
+  padding: 10px 30px 10px 0;
+}
+
+.labNav a{
+  font-size: 1.5em;
+  text-decoration: none;
+  color: var(--clr-font);
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1.5s;
+}
+
+.labNav a:hover {
+  border-bottom: 1px solid var(--clr-accent);
+}
+
+.nameContainer {
+  font-family: 'Lora', serif;
+  border-bottom: 1px solid var(--clr-accent);
+  display: flex;
+  height: 33%;
+  align-items: flex-end;
+  padding-bottom: .75em;
+}
