@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #303841;
+  color: #EEEEEE;
+}
+
+h2 {
+  font-size: 4em;
+  font-family: "Lora", serif;
+}
+
+.navLinkContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.navLink {
+  margin: 0px 0px 0px 40px;
+}
+
+.bodyDivContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100vh;
+  width: 85%;
+}
+
+.contentContainer {
+  display: flex;
+  height: auto;
+  align-items: flex-start;
+}
+
+.contentHeader {
+  border-bottom: 1px solid #F6C90E;
+  padding: 1em 0;
+  width: 100%;
+}
+
+.labsContainer {
+  display: flex;
+}
+
+.projectsContainer {
+  display: flex;
+}
+
+/* Project styles */
+.projectNav {
+  color: #EEEEEE;
+  margin: 10px 0;
+  padding: 10px 30px 10px 0;
+}
+
+.projectNav a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #EEEEEE;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1.5s;
+}
+
+.projectNav a:hover {
+  border-bottom: 1px solid #F6C90E;
+}
+
+/* Lab Styles */
+.labNav {
+  color: #EEEEEE;
+  margin: 10px 0;
+  padding: 10px 30px 10px 0;
+}
+
+.labNav a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #EEEEEE;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 1.5s;
+}
+
+.labNav a:hover {
+  border-bottom: 1px solid #F6C90E;
+}
+
+.nameContainer {
+  font-family: "Lora", serif;
+  border-bottom: 1px solid #F6C90E;
+  display: flex;
+  height: 33%;
+  align-items: flex-end;
+  padding-bottom: 0.75em;
+}
+
+@media (min-width: 1024px) {
+  .bodyDivContainer {
+    max-width: 1024px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
