@@ -9,10 +9,10 @@ function NavBar() {
       </div>
       <Container class="navLinkContainer">
         <div className="navLink">
-          <a>projects</a>
+          <p>projects</p>
         </div>
         <div className="navLink">
-          <a>contact</a>
+          <p>contact</p>
         </div>
       </Container>
     </Container>
