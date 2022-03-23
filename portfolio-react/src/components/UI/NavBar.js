@@ -9,10 +9,16 @@ function NavBar() {
       </div>
       <Container class="navLinkContainer">
         <div className="navLink">
-          <p>projects</p>
+          <a href="#projects">projects</a>
         </div>
         <div className="navLink">
-          <p>contact</p>
+          <a href="#contact">contact</a>
+        </div>
+        <div className="navLink">
+          <a href="https://github.com/davidpelo" target="_blank" rel="noreferrer">github</a>
+        </div>
+        <div className="navLink">
+          <a href="https://www.linkedin.com/in/davidpelo" target="_blank" rel="noreferrer">linkedIn</a>
         </div>
       </Container>
     </Container>

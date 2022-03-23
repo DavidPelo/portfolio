@@ -1,13 +1,13 @@
 import React from 'react'
-import Container from './Container';
 
 function Content({ title }) {
   return (
-    <Container class="contentContainer">
+    <>
       <div className="contentHeader">
-        <h2>{title}</h2>
+        <h1>{title}</h1>
       </div>
-    </Container>
+      <div className="content"></div>
+    </>
   );
 }
 

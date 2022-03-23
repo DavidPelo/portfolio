@@ -1,12 +1,11 @@
 import React from "react";
 import Container from "./Container";
 
-function Welcome({ message }) {
+function Welcome({ greeting, message }) {
   return (
-    <Container class="courseContainer">
-      <div className="course">
-        <h2>{message}</h2>
-      </div>
+    <Container class="greetingContainer">
+      <h2>{greeting}</h2>
+      <p>{message}</p>
     </Container>
   );
 }
