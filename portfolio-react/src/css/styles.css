@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@200&display=swap");
 *,
 *::before,
 *::after {
@@ -34,6 +35,7 @@ h2 {
   text-align: right;
 }
 .navLinkContainer .navLink a {
+  font-family: "Lora", serif;
   color: #EEEEEE;
   text-decoration: none;
 }

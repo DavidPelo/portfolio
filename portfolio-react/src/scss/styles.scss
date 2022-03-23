@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@200&display=swap');
+
 $clr-font: #EEEEEE;
 $clr-background: #303841;
 $clr-accent: #F6C90E;
@@ -41,9 +43,9 @@ h2 {
     text-align: right;
 
     a {
+      font-family: 'Lora', serif;
       color: $clr-font;
       text-decoration: none;
-
     }
   }
 }
