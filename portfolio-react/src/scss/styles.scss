@@ -4,8 +4,19 @@ $clr-font: #EEEEEE;
 $clr-background: #303841;
 $clr-accent: #F6C90E;
 
-$ff-primary: 'Mulish', sans-serif;
-$ff-secondary: 'Lora', serif;
+@mixin primary-font {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: $clr-font;
+}
+
+@mixin secondary-font {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-style: normal;
+  color: $clr-font;
+}
 
 *,
 *::before,
@@ -15,14 +26,13 @@ $ff-secondary: 'Lora', serif;
 }
 
 body {
-  font-family: $ff-primary;
+  @include primary-font;
   background-color: #303841;
-  color: $clr-font;
 }
 
 h2 {
   font-size: 4em;
-  font-family: $ff-secondary;
+  @include secondary-font;
 }
 
 .heroContainer {
@@ -39,12 +49,12 @@ h2 {
   padding-bottom: 0.30em;
   
   .navLink {
-    margin: 12px 0px 0px 40px;
+    margin: 14px 0px 0px 40px;
     text-align: right;
 
     a {
-      font-family: 'Lora', serif;
-      color: $clr-font;
+      @include secondary-font;
+      font-weight: 500;
       text-decoration: none;
     }
   }
@@ -59,7 +69,7 @@ h2 {
     border-bottom: 1px solid $clr-accent;
     padding: 1em 0;
     width: 100%;
-    font-family: $ff-secondary;
+    @include secondary-font;
   }
 }
 

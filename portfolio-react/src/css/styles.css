@@ -8,13 +8,18 @@
 
 body {
   font-family: "Mulish", sans-serif;
-  background-color: #303841;
+  font-weight: 500;
+  font-style: normal;
   color: #EEEEEE;
+  background-color: #303841;
 }
 
 h2 {
   font-size: 4em;
   font-family: "Lora", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #EEEEEE;
 }
 
 .heroContainer {
@@ -31,12 +36,15 @@ h2 {
   padding-bottom: 0.3em;
 }
 .navLinkContainer .navLink {
-  margin: 12px 0px 0px 40px;
+  margin: 14px 0px 0px 40px;
   text-align: right;
 }
 .navLinkContainer .navLink a {
   font-family: "Lora", serif;
+  font-weight: 700;
+  font-style: normal;
   color: #EEEEEE;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -50,6 +58,9 @@ h2 {
   padding: 1em 0;
   width: 100%;
   font-family: "Lora", serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #EEEEEE;
 }
 
 .greetingContainer p {
