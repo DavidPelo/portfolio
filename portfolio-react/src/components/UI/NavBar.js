@@ -1,7 +1,11 @@
 import React from "react";
 import Container from "./Container";
 
-function NavBar() {
+function NavBar({ scrollHandler }) {
+  const autoScrollHandler = (e) => {
+    e.preventDefault();
+    scrollHandler(e);
+  }
   return (
     <Container class="nameContainer">
       <div className="name">
@@ -9,10 +13,10 @@ function NavBar() {
       </div>
       <Container class="navLinkContainer">
         <div className="navLink">
-          <a href="#projects">projects</a>
+          <a onClick={autoScrollHandler} id="#projects" href="projects">projects</a>
         </div>
         <div className="navLink">
-          <a href="#contact">contact</a>
+          <a onClick={autoScrollHandler} id="#contact" href="contact">contact</a>
         </div>
         <div className="navLink">
           <a href="https://github.com/davidpelo" target="_blank" rel="noreferrer">github</a>
