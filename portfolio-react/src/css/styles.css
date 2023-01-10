@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Mulish:wght@200;400;500;600&display=swap');
 
 *,
 *::before,
@@ -9,7 +9,7 @@
 
 body {
   font-family: "Mulish", sans-serif;
-  font-weight: 500;
+  font-weight: 200;
   font-style: normal;
   color: #EEEEEE;
   background-color: #303841;

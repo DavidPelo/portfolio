@@ -10,7 +10,7 @@ const ComingSoon = () => {
       <Welcome
         greeting='Hi there!'
         message='My portfolio is currently under construction, but should be ready soon!'
-        secondaryMessage='If youd like to reach me, feel free to reach out!'
+        secondaryMessage="If you'd like to reach me, feel free to reach out!"
       />
     </Container>
   )
