@@ -11,10 +11,10 @@ export default function Header() {
   // useEffect(() => setMounted(true), [])
 
   return (
-    <header className="flex justify-between p-8">
+    <header className="sticky top-0 z-50 flex w-full justify-between p-8 bg-zinc-900">
       <div>
         <h1 className="text-5xl font-thin">David Pelo</h1>
-        <h2 className="font-medium">Fullstack Developer</h2>
+        <h2>Fullstack Developer</h2>
         {/* <button
           onClick={() => {
             setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
@@ -28,15 +28,21 @@ export default function Header() {
       </div>
       <nav>
         <ul className="flex gap-8">
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
-          <li>
+          <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
+            About
+          </li>
+          <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
+            Projects
+          </li>
+          <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
+            Contact
+          </li>
+          <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
             <Link href="https://www.github.com/DavidPelo" target="_blank">
               Github
             </Link>
           </li>
-          <li>
+          <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
             <Link href="https://www.linkedin.com/in/davidpelo/" target="_blank">
               LinkedIn
             </Link>

@@ -1,7 +1,4 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
   @font-face {
     font-family: 'Neue Montreal Thin';
@@ -13,4 +10,16 @@
     font-weight: 500;
     src: url('../../public/fonts/PPNeueMontreal-Medium.otf');
   }
+
+  body {
+    @apply dark:text-zinc-200 dark:bg-zinc-900 text-zinc-900 bg-zinc-200
+  }
 }
+
+header {
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+}
+
+@tailwind components;
+@tailwind utilities;
+
