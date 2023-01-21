@@ -1,14 +1,12 @@
 import { type NextPage } from 'next'
-import ComingSoon from '../components/ComingSoon'
+import { useState } from 'react'
 
-function App() {
+export default function Home() {
+  const [darkMode, setDarkMode] = useState(false)
   const underConstruction = true
 
   return (
     <>
-      {underConstruction && <ComingSoon />}
     </>
   )
 }
-
-export default App
