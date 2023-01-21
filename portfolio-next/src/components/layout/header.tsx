@@ -3,6 +3,7 @@ import { useTheme } from 'next-themes'
 import Link from 'next/link'
 
 export default function Header() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [mounted, setMounted] = useState(false)
 
   const { resolvedTheme, theme, setTheme } = useTheme()

@@ -1,5 +1,5 @@
 interface IProps {
-  children: React.ReactNode[] | React.ReactNode,
+  children: React.ReactNode
   title: string
 }
 
