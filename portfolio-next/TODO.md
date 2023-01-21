@@ -1,16 +1,21 @@
 # TO DO
 
 - [x] Set up Tailwind theme
-- [ ] Create favicon
-- [ ] Add site header and navigation
+- [x] Create favicon
+- [x] Add site header and navigation
+- [ ] Add bottom fade border to header
 - [ ] Add hamburger menu for mobile navigation
-- [ ] Add About section
-- [ ] Add Projects section
-- [ ] Add Contact section
+- [x] Add About section
+- [x] Add Projects section
+- [x] Add Contact section
+- [ ] Add router for pages
 - [ ] Add autoscroll
-- [ ] Add dark mode
+- [x] Add dark mode
 - [ ] Add custom colors to theme
 - [ ] Add email service
+
+## Known Issues
+- [x] Tailwind custom fonts no longer working
 
 ## Questions
 

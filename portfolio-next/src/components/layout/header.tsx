@@ -14,13 +14,13 @@ export default function Header() {
     <header className="flex justify-between p-8">
       <div>
         <h1 className="text-5xl font-thin">David Pelo</h1>
-        <h2>Fullstack Developer</h2>
+        <h2 className="font-medium">Fullstack Developer</h2>
         <button
           onClick={() => {
             setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
           }}
           type="button"
-          className="rounded-md p-2 transition-colors duration-300 hover:bg-gray-500/10"
+          className="rounded-md bg-white p-2 text-black transition-colors duration-1000 hover:bg-gray-500/10 dark:hover:bg-gray-500/50 dark:bg-black dark:text-white"
           aria-label={theme === 'light' ? 'Dark theme' : 'Light theme'}
         >
           {theme === 'light' ? 'dark' : 'light'}

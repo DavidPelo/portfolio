@@ -26,7 +26,7 @@ export default function Projects() {
 
   return (
     <ContentSection title="Projects">
-      <div className="grid h-[400px] grid-cols-2 gap-8">
+      <div className="grid grid-cols-2 gap-8">
         <ProjectCard
         // key={1}
         // name={projects[0]?.name}
@@ -34,6 +34,14 @@ export default function Projects() {
         // imageAlt={projects[0].imageUrl}
         // liveUrl={projects[0].liveUrl}
         // codeUrl={projects[0].codeUrl}
+        />
+        <ProjectCard
+        // key={2}
+        // name={projects[1].name}
+        // imageUrl={projects[1].imageUrl}
+        // imageAlt={projects[1].imageUrl}
+        // liveUrl={projects[1].liveUrl}
+        // codeUrl={projects[1].codeUrl}
         />
         <ProjectCard
         // key={2}

@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer-base {
-  @font-face {
-    font-family: "Neue Montreal Thin";
-    src: url("../../public/fonts/PPNeueMontreal-Thin.otf");
-  }
-  @font-face {
-    font-family: "Neue Montreal Medium";
-    font-weight: 500;
-    src: url("../../public/fonts/PPNeueMontreal-Medium.otf");
-  }
-}
 
+@font-face {
+  font-family: "Neue Montreal Thin";
+  font-weight: 100;
+  src: url("../../public/fonts/PPNeueMontreal-Thin.otf");
+}
+@font-face {
+  font-family: "Neue Montreal Medium";
+  font-weight: 500;
+  src: url("../../public/fonts/PPNeueMontreal-Medium.otf");
+}
