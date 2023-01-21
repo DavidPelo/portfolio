@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
+import Link from 'next/link'
 
 export default function Header() {
   const [mounted, setMounted] = useState(false)
@@ -29,8 +30,16 @@ export default function Header() {
           <li>About</li>
           <li>Projects</li>
           <li>Contact</li>
-          <li>Github</li>
-          <li>LinkedIn</li>
+          <li>
+            <Link href="https://www.github.com/DavidPelo" target="_blank">
+              Github
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.linkedin.com/in/davidpelo/" target="_blank">
+              LinkedIn
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

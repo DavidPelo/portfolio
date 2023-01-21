@@ -1,4 +1,4 @@
-import ContentSection from './content-section'
+import ContentSection from './contentSection'
 
 export default function Contact() {
   return (
