@@ -1,8 +1,8 @@
+import ContentSection from './content-section'
+
 export default function Projects() {
   return (
-    <section className="mx-auto max-w-[600px] pb-11">
-      <h2 className="pb-2 text-2xl">Projects</h2>
-      <hr className="pb-6" />
+    <ContentSection title="Projects">
       <p className="pb-4">
         I&apos;m baby pork belly cloud bread whatever chia, 8-bit kale chips pok
         pok praxis. Microdosing cornhole master cleanse post-ironic cronut
@@ -19,6 +19,6 @@ export default function Projects() {
         polaroid mumblecore kombucha ennui plaid whatever post-ironic actually
         live-edge PBR&B pitchfork sustainable.
       </p>
-    </section>
+    </ContentSection>
   )
 }
