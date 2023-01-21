@@ -10,12 +10,14 @@
 - [x] Add Contact section
 - [ ] Add router for pages
 - [ ] Add autoscroll
-- [x] Add dark mode
+- [ ] Add dark mode
 - [ ] Add custom colors to theme
 - [ ] Add email service
 
 ## Known Issues
 - [x] Tailwind custom fonts no longer working
+- [x] Favicon not loading
+- [x] Fix react hydration error
 
 ## Questions
 

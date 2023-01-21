@@ -3,28 +3,28 @@ import { useTheme } from 'next-themes'
 import Link from 'next/link'
 
 export default function Header() {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [mounted, setMounted] = useState(false)
+  // // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  // const [mounted, setMounted] = useState(false)
 
-  const { resolvedTheme, theme, setTheme } = useTheme()
+  // const { resolvedTheme, theme, setTheme } = useTheme()
 
-  useEffect(() => setMounted(true), [])
+  // useEffect(() => setMounted(true), [])
 
   return (
     <header className="flex justify-between p-8">
       <div>
         <h1 className="text-5xl font-thin">David Pelo</h1>
         <h2 className="font-medium">Fullstack Developer</h2>
-        <button
+        {/* <button
           onClick={() => {
             setTheme(resolvedTheme === 'light' ? 'dark' : 'light')
           }}
           type="button"
-          className="rounded-md bg-white p-2 text-black transition-colors duration-1000 hover:bg-gray-500/10 dark:hover:bg-gray-500/50 dark:bg-black dark:text-white"
+          className="rounded-md bg-white p-2 text-black transition-colors duration-1000 hover:bg-gray-500/10"
           aria-label={theme === 'light' ? 'Dark theme' : 'Light theme'}
         >
           {theme === 'light' ? 'dark' : 'light'}
-        </button>
+        </button> */}
       </div>
       <nav>
         <ul className="flex gap-8">
