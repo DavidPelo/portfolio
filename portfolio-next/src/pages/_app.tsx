@@ -1,13 +1,13 @@
 import { type AppType } from 'next/dist/shared/lib/utils'
 import '../styles/globals.css'
+import { ThemeProvider } from 'next-themes'
 import Layout from '../components/layout'
 import Head from 'next/head'
-import { ThemeProvider } from 'next-themes'
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <>
-      <ThemeProvider defaultTheme="dark" attribute="class">
+      <ThemeProvider defaultTheme="system" attribute="class">
         <Head>
           <title>David Pelo</title>
         </Head>
