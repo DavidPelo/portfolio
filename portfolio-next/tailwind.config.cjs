@@ -8,7 +8,7 @@ module.exports = {
         thin: ['Neue Montreal Thin', 'sans-serif'],
         medium: ['Neue Montreal Medium', 'sans-serif']
       }
-    }
+    },
   },
   plugins: []
 }
