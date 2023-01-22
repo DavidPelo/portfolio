@@ -12,6 +12,7 @@
 - [x] Add Projects section
 - [x] Add Contact section
 - [x] Add dark mode
+- [ ] Find a more optimal approach to displaying github and linkedin links
 - [ ] add contact form
 - [ ] Add custom colors to theme
 - [ ] Add email service

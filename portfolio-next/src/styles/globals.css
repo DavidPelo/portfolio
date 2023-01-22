@@ -16,7 +16,7 @@
   }
 }
 
-.link-hover {
+.hover-effect {
   @apply transition-colors duration-200 hover:text-zinc-400;
 }
 
