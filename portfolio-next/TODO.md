@@ -6,7 +6,8 @@
 - [x] Reorganize components into pages with router
 - [x] Add page transitions
 - [x] Add catch all route
-- [ ] Add hamburger menu for mobile navigation
+- [x] Add hamburger menu for mobile navigation
+- [ ] Find a more optimal/best practice solution for hamburger menu
 - [x] Add About section
 - [x] Add Projects section
 - [x] Add Contact section
