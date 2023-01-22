@@ -1,6 +1,7 @@
 import ContentSection from '../components/contentSection'
 import ProjectCard from '../components/projectCard'
 
+
 // interface IProject {
 //   name: string
 //   imageUrl: string
