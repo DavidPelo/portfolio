@@ -31,9 +31,6 @@ export default function Header() {
       <nav>
         <ul className="flex gap-8">
           <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
-            <Link href="/about">About</Link>
-          </li>
-          <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
             <Link href="/projects">Projects</Link>
           </li>
           <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">

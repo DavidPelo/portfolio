@@ -5,6 +5,7 @@
 - [x] Add site header and navigation
 - [ ] Reorganize components into pages with router
 - [ ] Add page transitions
+- [ ] Add catch all route
 - [ ] Add bottom fade border to header
 - [ ] Add hamburger menu for mobile navigation
 - [x] Add About section

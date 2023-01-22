@@ -1,8 +1,8 @@
 import ContentSection from '../components/contentSection'
 
-export default function About() {
+export default function Welcome() {
   return (
-    <ContentSection title="About">
+    <ContentSection title="Welcome">
       <p className="pb-4">
         I&apos;m baby pork belly cloud bread whatever chia, 8-bit kale chips pok
         pok praxis. Microdosing cornhole master cleanse post-ironic cronut
