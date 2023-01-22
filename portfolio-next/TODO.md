@@ -4,15 +4,14 @@
 - [x] Create favicon
 - [x] Add site header and navigation
 - [x] Reorganize components into pages with router
-- [ ] Add page transitions
+- [x] Add page transitions
 - [x] Add catch all route
 - [ ] Add hamburger menu for mobile navigation
 - [x] Add About section
 - [x] Add Projects section
 - [x] Add Contact section
-- [ ] Add router for pages
-- [ ] Add autoscroll
-- [ ] Add dark mode
+- [x] Add dark mode
+- [ ] add contact form
 - [ ] Add custom colors to theme
 - [ ] Add email service
 
@@ -20,6 +19,7 @@
 - [x] Tailwind custom fonts no longer working
 - [x] Favicon not loading
 - [x] Fix react hydration error
+- [ ] Link transition effects are delayed with theme change
 
 ## Questions
 

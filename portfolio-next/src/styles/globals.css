@@ -12,14 +12,13 @@
   }
 
   body {
-    @apply dark:text-zinc-200 dark:bg-zinc-900 text-zinc-900 bg-zinc-200
+    @apply bg-zinc-200 text-zinc-900 transition-colors duration-200 dark:bg-zinc-900 dark:text-zinc-200;
   }
 }
 
-header {
-  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+.link-hover {
+  @apply transition-colors duration-200 hover:text-zinc-400;
 }
 
 @tailwind components;
 @tailwind utilities;
-

@@ -14,7 +14,6 @@ export default function ContentSection({ children, title }: IProps) {
         exit={{ y: 500, opacity: 0 }}
       >
         <h2 className="pb-2 text-2xl">{title}</h2>
-        <hr className="pb-6" />
         {children}
       </motion.section>
     </AnimatePresence>
