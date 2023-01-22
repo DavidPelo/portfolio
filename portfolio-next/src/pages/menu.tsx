@@ -6,29 +6,28 @@ export default function Menu() {
     <ContentSection title="Where are we going?">
       <nav>
         <ul className="flex flex-col gap-4 ">
-          <li className="cursor-pointer hover:text-zinc-400"></li>
-          <li className="cursor-pointer hover:text-zinc-400">
-            <Link className="link-hover" href="/projects">
+          <li>
+            <Link className="hover-effect" href="/projects">
               Projects
             </Link>
           </li>
-          <li className="cursor-pointer  hover:text-zinc-400">
-            <Link className="link-hover" href="/contact">
+          <li>
+            <Link className="hover-effect" href="/contact">
               Contact
             </Link>
           </li>
-          <li className="cursor-pointer hover:text-zinc-400">
+          <li>
             <Link
-              className="link-hover"
+              className="hover-effect"
               href="https://www.github.com/DavidPelo"
               target="_blank"
             >
               Github
             </Link>
           </li>
-          <li className="cursor-pointer hover:text-zinc-400">
+          <li>
             <Link
-              className="link-hover"
+              className="hover-effect"
               href="https://www.linkedin.com/in/davidpelo/"
               target="_blank"
             >
