@@ -3,6 +3,8 @@
 - [x] Set up Tailwind theme
 - [x] Create favicon
 - [x] Add site header and navigation
+- [ ] Reorganize components into pages with router
+- [ ] Add page transitions
 - [ ] Add bottom fade border to header
 - [ ] Add hamburger menu for mobile navigation
 - [x] Add About section

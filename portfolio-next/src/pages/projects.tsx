@@ -1,5 +1,5 @@
-import ContentSection from '../contentSection'
-import ProjectCard from './projectCard'
+import ContentSection from '../components/contentSection'
+import ProjectCard from '../components/projectCard'
 
 // interface IProject {
 //   name: string
@@ -34,14 +34,6 @@ export default function Projects() {
         // imageAlt={projects[0].imageUrl}
         // liveUrl={projects[0].liveUrl}
         // codeUrl={projects[0].codeUrl}
-        />
-        <ProjectCard
-        // key={2}
-        // name={projects[1].name}
-        // imageUrl={projects[1].imageUrl}
-        // imageAlt={projects[1].imageUrl}
-        // liveUrl={projects[1].liveUrl}
-        // codeUrl={projects[1].codeUrl}
         />
         <ProjectCard
         // key={2}

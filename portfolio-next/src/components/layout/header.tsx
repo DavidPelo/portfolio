@@ -11,9 +11,11 @@ export default function Header() {
   // useEffect(() => setMounted(true), [])
 
   return (
-    <header className="sticky top-0 z-50 flex w-full justify-between p-8 bg-zinc-900">
+    <header className="flex w-full justify-between p-8 shadow-none">
       <div>
-        <h1 className="text-5xl font-thin">David Pelo</h1>
+        <h1 className="text-5xl font-thin transition-all duration-200 hover:text-zinc-400">
+          <Link href="/">David Pelo</Link>
+        </h1>
         <h2>Fullstack Developer</h2>
         {/* <button
           onClick={() => {
@@ -29,13 +31,13 @@ export default function Header() {
       <nav>
         <ul className="flex gap-8">
           <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
-            About
+            <Link href="/about">About</Link>
           </li>
           <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
-            Projects
+            <Link href="/projects">Projects</Link>
           </li>
           <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
-            Contact
+            <Link href="/contact">Contact</Link>
           </li>
           <li className="cursor-pointer transition-all duration-200 hover:text-zinc-400">
             <Link href="https://www.github.com/DavidPelo" target="_blank">

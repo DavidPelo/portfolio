@@ -1,4 +1,4 @@
-import ContentSection from './contentSection'
+import ContentSection from '../components/contentSection'
 
 export default function About() {
   return (
