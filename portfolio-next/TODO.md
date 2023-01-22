@@ -16,6 +16,7 @@
 - [ ] Add email service
 
 ## Known Issues
+
 - [x] Tailwind custom fonts no longer working
 - [x] Favicon not loading
 - [x] Fix react hydration error
@@ -24,37 +25,42 @@
 ## Questions
 
 ### How to configure Tailwind with custom fonts
-  1.  google fonts or other imported styles can be imported in global styles
-  2.  If fonts are self-hosted, add the files to ./public/fonts
-  3.  In the global styles add @font-face for each font you want to use
-   
-  ```css
-  @layer-base {
-    @font-face {
-      font-family: "Neue Montreal Thin";
-      src: url("../../public/fonts/PPNeueMontreal-Thin.otf");
-    }
-    @font-face {
-      font-family: "Neue Montreal Medium";
-      font-weight: 500;
-      src: url("../../public/fonts/PPNeueMontreal-Medium.otf");
+
+1.  google fonts or other imported styles can be imported in global styles
+2.  If fonts are self-hosted, add the files to ./public/fonts
+3.  In the global styles add @font-face for each font you want to use
+
+```css
+@layer-base {
+  @font-face {
+    font-family: 'Neue Montreal Thin';
+    src: url('../../public/fonts/PPNeueMontreal-Thin.otf');
+  }
+  @font-face {
+    font-family: 'Neue Montreal Medium';
+    font-weight: 500;
+    src: url('../../public/fonts/PPNeueMontreal-Medium.otf');
+  }
+}
+```
+
+4. Add font definitions to tailwind.config.cjs
+
+```js
+theme: {
+  extend: {
+    fontFamily: {
+      thin: ['Neue Montreal Thin', 'sans-serif'],
+      medium: ['Neue Montreal Medium', 'sans-serif']
     }
   }
-  ``` 
-  4. Add font definitions to tailwind.config.cjs
-  ```js
-  theme: {
-    extend: {
-      fontFamily: {
-        thin: ['Neue Montreal Thin', 'sans-serif'],
-        medium: ['Neue Montreal Medium', 'sans-serif']
-      }
-    }
-  },
-  ```
+},
+```
 
 ### How to configure Tailwind with custom colors
+
 1. Add custom colors to tailwind.config.cjs like so:
+
 ```js
   theme: {
     colors: {

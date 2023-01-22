@@ -1,4 +1,4 @@
-import ContentSection from '../components/contentSection'
+import ContentSection from '../components/helper/contentSection'
 
 export default function Welcome() {
   return (

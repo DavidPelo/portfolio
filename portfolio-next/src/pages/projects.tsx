@@ -1,6 +1,5 @@
-import ContentSection from '../components/contentSection'
-import ProjectCard from '../components/projectCard'
-
+import ContentSection from '../components/helper/contentSection'
+import ProjectCard from '../components/helper/projectCard'
 
 // interface IProject {
 //   name: string

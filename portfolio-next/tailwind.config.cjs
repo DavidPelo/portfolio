@@ -7,6 +7,10 @@ module.exports = {
       fontFamily: {
         thin: ['Neue Montreal Thin', 'sans-serif'],
         medium: ['Neue Montreal Medium', 'sans-serif']
+      },
+      container: {
+        center: true,
+        padding: '1rem'
       }
     }
   },
