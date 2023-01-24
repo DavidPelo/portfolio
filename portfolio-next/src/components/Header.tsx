@@ -8,6 +8,7 @@ import MobileNavBar from './MobileNavBar'
 export default function Header() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [mounted, setMounted] = useState(false)
+  const [menuIsOpen, setMenuIsOpen] = useState(false)
   const { resolvedTheme, theme, setTheme } = useTheme()
   const router = useRouter()
 
@@ -18,8 +19,24 @@ export default function Header() {
   }
 
   function menuHandler() {
-    if (router.asPath === '/menu') router.back()
+    setMenuIsOpen(!menuIsOpen)
   }
+
+  useEffect(() => {
+    console.log('useEffect running')
+
+    const checkMenu = () => {
+      if (window.innerWidth > 649) {
+        setMenuIsOpen(false)
+      }
+    }
+
+    window.addEventListener('resize', checkMenu)
+
+    return () => {
+      window.removeEventListener('resize', checkMenu)
+    }
+  }, [])
 
   if (!mounted) return null
 
@@ -40,11 +57,16 @@ export default function Header() {
             theme={theme}
             changeTheme={themeSwitcher}
             toggleMenu={menuHandler}
+            menuIsOpen={menuIsOpen}
           />
           {/* Desktop Navigation */}
           <DesktopNavBar theme={theme} changeTheme={themeSwitcher} />
         </nav>
       </header>
+
+      {/* {menuIsOpen && (
+        show menu
+      )} */}
     </>
   )
 }
