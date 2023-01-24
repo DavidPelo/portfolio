@@ -1,4 +1,4 @@
-import ContentSection from '../components/helper/contentSection'
+import ContentSection from '../components/ContentSection'
 import Layout from '../components/Layout'
 import Link from 'next/link'
 

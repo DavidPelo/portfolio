@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import SunIcon from '../icons/SunIcon'
-import MoonIcon from '../icons/MoonIcon'
+import MoonIcon from './icons/MoonIcon'
 
 interface IProps {
   theme?: string

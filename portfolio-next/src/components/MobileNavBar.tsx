@@ -1,7 +1,7 @@
-import MenuIcon from '../icons/MenuIcon'
-import SunIcon from '../icons/SunIcon'
-import MoonIcon from '../icons/MoonIcon'
-import CloseIcon from '../icons/CloseIcon'
+import MenuIcon from './icons/MenuIcon'
+import SunIcon from './icons/SunIcon'
+import MoonIcon from './icons/MoonIcon'
+import CloseIcon from './icons/CloseIcon'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 

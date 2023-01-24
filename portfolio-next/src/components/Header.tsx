@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import DesktopNavBar from './navigation/DesktopNavBar'
-import MobileNavBar from './navigation/MobileNavBar'
+import DesktopNavBar from './DesktopNavBar'
+import MobileNavBar from './MobileNavBar'
 
 export default function Header() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
