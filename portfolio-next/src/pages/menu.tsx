@@ -1,11 +1,11 @@
-import ContentSection from '../components/ContentSection'
 import Layout from '../components/Layout'
 import Link from 'next/link'
 
 export default function Menu() {
   return (
     <Layout>
-      <ContentSection title="Where are we going?">
+      <section className="mx-auto w-full max-w-[600px]">
+        <h2 className="pb-4 text-2xl">Where are we going?</h2>
         <nav>
           <ul className="flex flex-col gap-4">
             <li>
@@ -38,7 +38,7 @@ export default function Menu() {
             </li>
           </ul>
         </nav>
-      </ContentSection>
+      </section>
     </Layout>
   )
 }

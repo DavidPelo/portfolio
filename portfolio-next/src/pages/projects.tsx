@@ -1,4 +1,3 @@
-import ContentSection from '../components/ContentSection'
 import ProjectCard from '../components/ProjectCard'
 import Layout from '../components/Layout'
 
@@ -27,7 +26,8 @@ export default function Projects() {
 
   return (
     <Layout>
-      <ContentSection title="Projects">
+      <section className="mx-auto w-full max-w-[600px]">
+        <h2 className="pb-4 text-2xl">Let&apos;s work together</h2>
         <div className="grid grid-cols-2 gap-8">
           <ProjectCard
           // key={1}
@@ -58,7 +58,7 @@ export default function Projects() {
           />
         )
       })} */}
-      </ContentSection>
+      </section>
     </Layout>
   )
 }

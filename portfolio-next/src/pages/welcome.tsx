@@ -1,10 +1,10 @@
-import ContentSection from '../components/ContentSection'
 import Layout from '../components/Layout'
 
 export default function Welcome() {
   return (
     <Layout>
-      <ContentSection title="Welcome">
+      <section className="mx-auto w-full max-w-[600px]">
+        <h2 className="pb-4 text-2xl">Welcome</h2>
         <p className="pb-4">
           I&apos;m baby pork belly cloud bread whatever chia, 8-bit kale chips
           pok pok praxis. Microdosing cornhole master cleanse post-ironic cronut
@@ -21,7 +21,7 @@ export default function Welcome() {
           polaroid mumblecore kombucha ennui plaid whatever post-ironic actually
           live-edge PBR&B pitchfork sustainable.
         </p>
-      </ContentSection>
+      </section>
     </Layout>
   )
 }

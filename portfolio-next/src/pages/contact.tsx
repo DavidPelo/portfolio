@@ -1,9 +1,10 @@
-import ContentSection from '../components/ContentSection'
+
 import Layout from '../components/Layout'
 export default function Contact() {
   return (
     <Layout>
-      <ContentSection title="Let's work together">
+      <section className="mx-auto w-full max-w-[600px]">
+        <h2 className="pb-4 text-2xl">Let&apos;s work together</h2>
         <form className="m-auto max-w-[600px]">
           <div className="grid grid-cols-2 gap-2">
             <input
@@ -30,7 +31,7 @@ export default function Contact() {
           ></textarea>
           <button className="mt-2 w-full border p-3 shadow-lg">Submit</button>
         </form>
-      </ContentSection>
+      </section>
     </Layout>
   )
 }
