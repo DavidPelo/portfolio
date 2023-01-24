@@ -27,7 +27,7 @@ export default function Header() {
     <>
       <header className="absolute z-10 flex w-full max-w-[2000px] justify-between p-4 sm:w-full md:p-8">
         <div>
-          <h1 className="ml-[-3px] text-5xl font-thin">
+          <h1 className="ml-[-3px] text-5xl font-light">
             <Link className="hover-effect" href="/">
               David Pelo
             </Link>
