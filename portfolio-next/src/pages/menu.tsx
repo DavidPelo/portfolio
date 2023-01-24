@@ -5,7 +5,7 @@ export default function Menu() {
   return (
     <ContentSection title="Where are we going?">
       <nav>
-        <ul className="flex flex-col gap-4 ">
+        <ul className="flex flex-col gap-4">
           <li>
             <Link className="hover-effect" href="/projects">
               Projects

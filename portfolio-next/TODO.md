@@ -7,15 +7,17 @@
 - [x] Add page transitions
 - [x] Add catch all route
 - [x] Add hamburger menu for mobile navigation
-- [ ] Find a more optimal/best practice solution for hamburger menu
 - [x] Add About section
 - [x] Add Projects section
 - [x] Add Contact section
 - [x] Add dark mode
-- [ ] Find a more optimal approach to displaying github and linkedin links
+- [ ] write site content
+- [ ] link projects page to current frontend mentor projects
 - [ ] add contact form
 - [ ] Add custom colors to theme
+- [ ] experiment with fonts
 - [ ] Add email service
+- [ ] Check accessibility once most content and features are built out
 
 ## Known Issues
 
@@ -23,6 +25,7 @@
 - [x] Favicon not loading
 - [x] Fix react hydration error
 - [ ] Link transition effects are delayed with theme change
+- [ ] Find a way to display/link github and linkedIn accounts that optimizes accessibility
 
 ## Questions
 

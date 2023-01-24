@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import DesktopNavigation from '../navigation/desktopNav'
-import MobileNavigation from '../navigation/mobileNav'
+import DesktopNavBar from '../navigation/DesktopNavBar'
+import MobileNavBar from '../navigation/MobileNavBar'
 
 export default function Header() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -25,9 +25,9 @@ export default function Header() {
 
   return (
     <>
-      <header className="mx-auto flex max-w-[2000px] justify-between p-4 sm:w-full md:p-8">
+      <header className="absolute z-10 flex w-full max-w-[2000px] justify-between p-4 sm:w-full md:p-8">
         <div>
-          <h1 className="ml-[-3px] text-5xl font-thin hover:text-zinc-400">
+          <h1 className="ml-[-3px] text-5xl font-thin">
             <Link className="hover-effect" href="/">
               David Pelo
             </Link>
@@ -36,13 +36,13 @@ export default function Header() {
         </div>
         <nav>
           {/* Mobile Navigation */}
-          <MobileNavigation
+          <MobileNavBar
             theme={theme}
             changeTheme={themeSwitcher}
-            openMenu={menuHandler}
+            toggleMenu={menuHandler}
           />
           {/* Desktop Navigation */}
-          <DesktopNavigation theme={theme} changeTheme={themeSwitcher} />
+          <DesktopNavBar theme={theme} changeTheme={themeSwitcher} />
         </nav>
       </header>
     </>

@@ -1,13 +1,13 @@
 import Link from 'next/link'
-import SunIcon from '../icons/sunIcon'
-import MoonIcon from '../icons/moonIcon'
+import SunIcon from '../icons/SunIcon'
+import MoonIcon from '../icons/MoonIcon'
 
 interface IProps {
   theme?: string
   changeTheme: () => void
 }
 
-export default function DesktopNavigation({ theme, changeTheme }: IProps) {
+export default function DesktopNavBar({ theme, changeTheme }: IProps) {
   return (
     <ul className="hidden gap-8 sm:flex">
       <li>
