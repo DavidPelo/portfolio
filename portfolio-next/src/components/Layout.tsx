@@ -19,7 +19,7 @@ export default function Layout({ children }: IProps) {
         animate="enter" // Animated state to variants.enter
         exit="exit" // Exit state (used later) to variants.exit
         transition={{ type: 'linear' }} // Set the transition to linear
-        className="container absolute top-0 bottom-0 right-0 left-0 flex items-center justify-center overflow-hidden"
+        className="container absolute top-0 bottom-0 right-0 left-0 mx-auto flex items-center justify-center overflow-hidden"
       >
         {children}
       </motion.main>

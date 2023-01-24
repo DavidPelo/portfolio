@@ -9,15 +9,9 @@ interface IProps {
   theme?: string
   changeTheme: () => void
   toggleMenu: () => void
-  menuIsOpen: boolean
 }
 
-export default function MobileNavBar({
-  theme,
-  changeTheme,
-  toggleMenu,
-  menuIsOpen
-}: IProps) {
+export default function MobileNavBar({ theme, changeTheme }: IProps) {
   const router = useRouter()
 
   return (
@@ -33,17 +27,7 @@ export default function MobileNavBar({
         </button>
       </li>
       <li>
-        {!menuIsOpen && (
-          <button type="button" onClick={toggleMenu}>
-            <MenuIcon />
-          </button>
-        )}
-        {menuIsOpen && (
-          <button type="button" onClick={toggleMenu}>
-            <CloseIcon />
-          </button>
-        )}
-        {/* {router.asPath === '/menu' && (
+        {router.asPath === '/menu' && (
           <button type="button" onClick={() => router.back()}>
             <CloseIcon />
           </button>
@@ -52,7 +36,7 @@ export default function MobileNavBar({
           <Link href="menu" className="hover-effect">
             <MenuIcon />
           </Link>
-        )} */}
+        )}
       </li>
     </ul>
   )
