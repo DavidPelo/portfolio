@@ -1,5 +1,5 @@
 import ProjectCard from '../components/ProjectCard'
-import Layout from '../components/Layout'
+import PageTransition from '../components/PageTransition'
 
 // interface IProject {
 //   name: string
@@ -25,28 +25,27 @@ export default function Projects() {
   // ]
 
   return (
-    <Layout>
-      <section className="mx-auto w-full max-w-[600px]">
-        <h2 className="pb-4 text-2xl">Let&apos;s work together</h2>
-        <div className="grid grid-cols-2 gap-8">
-          <ProjectCard
-          // key={1}
-          // name={projects[0]?.name}
-          // imageUrl={projects[0].imageUrl}
-          // imageAlt={projects[0].imageUrl}
-          // liveUrl={projects[0].liveUrl}
-          // codeUrl={projects[0].codeUrl}
-          />
-          <ProjectCard
-          // key={2}
-          // name={projects[1].name}
-          // imageUrl={projects[1].imageUrl}
-          // imageAlt={projects[1].imageUrl}
-          // liveUrl={projects[1].liveUrl}
-          // codeUrl={projects[1].codeUrl}
-          />
-        </div>
-        {/* {projects.map((project): React.ReactNode[] => {
+    <PageTransition>
+      <h2 className="pb-4 text-2xl">Let&apos;s work together</h2>
+      <div className="grid grid-cols-2 gap-8">
+        <ProjectCard
+        // key={1}
+        // name={projects[0]?.name}
+        // imageUrl={projects[0].imageUrl}
+        // imageAlt={projects[0].imageUrl}
+        // liveUrl={projects[0].liveUrl}
+        // codeUrl={projects[0].codeUrl}
+        />
+        <ProjectCard
+        // key={2}
+        // name={projects[1].name}
+        // imageUrl={projects[1].imageUrl}
+        // imageAlt={projects[1].imageUrl}
+        // liveUrl={projects[1].liveUrl}
+        // codeUrl={projects[1].codeUrl}
+        />
+      </div>
+      {/* {projects.map((project): React.ReactNode[] => {
         return (
           <ProjectCard
             key={Math.random()}
@@ -58,7 +57,6 @@ export default function Projects() {
           />
         )
       })} */}
-      </section>
-    </Layout>
+    </PageTransition>
   )
 }

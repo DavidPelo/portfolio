@@ -1,6 +1,8 @@
+import PageTransition from '../components/PageTransition'
+
 export default function Welcome() {
   return (
-    <section className="mx-auto w-full max-w-[600px]">
+    <PageTransition>
       <h2 className="pb-4 text-2xl">Welcome</h2>
       <p className="pb-4">
         I&apos;m baby pork belly cloud bread whatever chia, 8-bit kale chips pok
@@ -18,6 +20,6 @@ export default function Welcome() {
         polaroid mumblecore kombucha ennui plaid whatever post-ironic actually
         live-edge PBR&B pitchfork sustainable.
       </p>
-    </section>
+    </PageTransition>
   )
 }

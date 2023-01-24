@@ -2,6 +2,7 @@ import { type AppType } from 'next/dist/shared/lib/utils'
 import '../styles/globals.css'
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
+import Layout from '../components/Layout'
 import type { AppProps } from 'next/app'
 
 const MyApp: AppType = ({
@@ -17,7 +18,9 @@ const MyApp: AppType = ({
         <title>David Pelo</title>
       </Head>
       <ThemeProvider defaultTheme="system" attribute="class">
-        <Component {...pageProps} key={url} />
+        <Layout>
+          <Component {...pageProps} key={url} />
+        </Layout>
       </ThemeProvider>
     </>
   )
